@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(250, 182, 54);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.navbar ul li {
+    padding: 10px;
+    background-color: lime;
+    border-radius: 10px;
+    color: #fff;
+}
+.alert {
+    width: 300px;
+    background-color: rgb(241, 183, 75);
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    right: 40%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.alert-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+.alert .btn button {
+    margin-bottom: -8px;
+    margin: 0px 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.alert .btn button a {
+    padding: 20px;
+        cursor: pointer;
+}
+.active {
+    top: -200px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.logout-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.logout {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: lime;
+    color: #fff;
+    outline: none;
+}

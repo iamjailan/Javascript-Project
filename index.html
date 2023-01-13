@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Help</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div class="alert active">
+            <div class="alert-text">Do You want to Logout?</div>
+            <div class="btn">
+                <button id="no-btn"><a href="#">No</a></button>
+                <button id="yes-btn"><a href="login.php?logout=ok">Yes</a></button>
+            </div>
+        </div>
+        <div class="logout-btn">
+            <button class="logout">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
