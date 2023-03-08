@@ -4,29 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <title>airbnb Resturant</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js" defer></script>
+    <script src="https://kit.fontawesome.com/b913788fcc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
-            <ul>
-                <li>Home</li>
-                <li>Contact</li>
-                <li>Help</li>
-                <li>About</li>
-            </ul>
+            <div class="title">airbnb Resturant</div>
+            <div class="logo">
+                <img src="./logo.png" alt="logo">
+            </div>
+            <div class="title-date" id="navbar-date">00</div>
         </div>
-        <div class="alert active">
-            <div class="alert-text">Do You want to Logout?</div>
-            <div class="btn">
-                <button id="no-btn"><a href="#">No</a></button>
-                <button id="yes-btn"><a href="login.php?logout=ok">Yes</a></button>
+        <div class="item-list">
+            <div class="item">
+                <img src="./src/1.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Kabuli Palow</p></div>
+                    <div class="item-price">Price : <p class="price-amount">1400$</p></div>
+                    <p class="item-about">Kabuli Palow is a special Afghani Food and People like it so much</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/kabab.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Kabab</p></div>
+                    <div class="item-price">Price : <p class="price-amount">1400$</p></div>
+                    <p class="item-about">Kabul Kabab is a special Afghani Food and People like it so much</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/2.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Ozbaki Palow</p></div>
+                    <div class="item-price">Price : <p class="price-amount">1400$</p></div>
+                    <p class="item-about">Ozbaki Palow is a special Afghani Food and People like it so much</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/manto.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Manto</p></div>
+                    <div class="item-price">Price : <p class="price-amount">1400$</p></div>
+                    <p class="item-about">Manto is a special Afghani Food and People like it so much</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/green.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Green Tea</p></div>
+                    <div class="item-price">Price : <p class="price-amount">3$</p></div>
+                    <p class="item-about">Fresh Green tea is available here for you.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./src/tea.jpg" alt="image" id="photo">
+                <div class="item-info">
+                    <div class="item-name">Name : <p id="item-name-1"> Black Tea</p></div>
+                    <div class="item-price">Price : <p class="price-amount">1$</p></div>
+                    <p class="item-about">Fresh Black tea is available here for you.</p>
+                </div>
             </div>
         </div>
-        <div class="logout-btn">
-            <button class="logout">Logout</button>
+        <div class="social-media-links">
+            <ul>
+                <li><a href="https://www.facebook.com/@iamjailan"><i style="color: blue;" class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/iamjailan"><i style="    color: linear-gradient(to right, #f58529, #dd2a7b, #c13584, #833ab4, #5851db, #405de5, #0088cc);" class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i style="color: #00acee ;" class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i style="color: #000;" class="fa-brands fa-github"></i></a></li>
+            </ul>
         </div>
     </div>
 </body>
